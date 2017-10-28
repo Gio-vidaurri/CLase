@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+	color: white;
+}
+table {
+	width: 100%;
+ 	background-color: gray;
+}
+
+thead {
+	background-color: red;
+}
+
+tr:nth-child(odd) a {
+	background-color: brown;
+}
+
+tr:nth-child(odd){
+	background-color: black;
+}
+tr:nth-child(even){
+	background-color: gray;
+}
+
+th:nth-child(odd){
+	background-color: pink;
+}
